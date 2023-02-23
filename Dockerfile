@@ -1,8 +1,9 @@
 FROM node:18
 
-# For chromium process, see https://stackoverflow.com/a/71128432
 RUN apt-get update && \
   apt-get install -y \
+    git \
+    # For chromium process, see https://stackoverflow.com/a/71128432
     libnss3 \
     libnspr4 \
     libatk1.0-0 \
