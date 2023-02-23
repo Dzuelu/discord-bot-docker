@@ -2,7 +2,6 @@ FROM node:18
 
 RUN apt-get update && \
   apt-get install -y \
-    git \
     # For chromium process, see https://stackoverflow.com/a/71128432
     libnss3 \
     libnspr4 \
