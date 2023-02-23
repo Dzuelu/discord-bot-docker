@@ -4,7 +4,9 @@ ls -l
 
 node -v
 
-git clone https://github.com/Dzuelu/discord-bot.git
+where git
+
+# git clone https://github.com/Dzuelu/discord-bot.git
 
 cd discord-bot
 
