@@ -2,7 +2,7 @@
 
 node -v
 
-git clone git@github.com:Dzuelu/discord-bot.git
+git clone https://github.com/Dzuelu/discord-bot.git
 
 cd discord-bot
 
