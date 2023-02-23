@@ -1,5 +1,7 @@
 #!/bin/sh
 
+ls -l
+
 node -v
 
 git clone https://github.com/Dzuelu/discord-bot.git
